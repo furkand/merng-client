@@ -32,6 +32,8 @@ function SinglePost (props) {
     console.log('my data')
     console.log(data)
     if(data){
+        console.log('data after the if clouse')
+        console.log(data)
         const {
             id,
             body,
