@@ -16,7 +16,7 @@ function SinglePost (props) {
     const [comment, setComment] = useState('')
     console.log(postId);
     
-    const {loading,error,data} = useQuery(FETCH_POST_QUERY, {variables : {postId : postId}})
+    const {loading,error,data} = useQuery(FETCH_POST_QUERY, {variables : {postId}})
     const [submitComment] = useMutation(SUBMIT_COMMENT_MUTATION, {
         update(){
             setComment('')
