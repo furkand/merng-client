@@ -29,6 +29,8 @@ function SinglePost (props) {
     function deleteButtonCallback() {
         props.history.push('/')
     }
+    console.log('my data')
+    console.log(data)
     if(data){
         const {
             id,
