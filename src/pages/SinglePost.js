@@ -26,6 +26,8 @@ function SinglePost (props) {
             body : comment
         }
     })
+    console.log(loading)
+    console.log(error)
     function deleteButtonCallback() {
         props.history.push('/')
     }
