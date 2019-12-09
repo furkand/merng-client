@@ -33,7 +33,7 @@ function SinglePost (props) {
     }
     console.log('my data')
     console.log(data)
-    if(data){
+    if(data.getPost){
         console.log('data after the if clouse')
         console.log(data)
         const {
