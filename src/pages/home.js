@@ -34,11 +34,11 @@ function Home() {
               <Transition.Group>
                 {posts &&
                   posts.map((post) => (
+                    <div className="post-container">
                     <Grid.Column key={post.id} style={{ marginBottom: 20 }}>
-                      <div >
-                      <PostCard className="post-container" post={post} />
-                      </div>
+                      <PostCard post={post} />
                     </Grid.Column>
+                    <div/>
                   ))}
               </Transition.Group>
             
