@@ -7,4 +7,10 @@
     .post-container{
         width:100%;
     }
+    .register-container{
+        width: 70%;
+    }
+    .login-container {
+        width: 70%;
+    }
   }

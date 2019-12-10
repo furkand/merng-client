@@ -42,7 +42,7 @@ function Register(props) {
 
 
     return (
-    <div className='form-ui'>
+    <div className='form-ui register-container'>
         <Form  onSubmit={onSubmit} noValidate className={loading ? "loading" : ""} >
             <h1>Register</h1>
             <Form.Input label='username' placeholder='Username..' name='username' value={values.username} error={errors.username ? true : false} onChange={onChange}/>

@@ -39,7 +39,7 @@ function Login(props) {
 
 
     return (
-    <div className='form-ui' >
+    <div className='form-ui login-container' >
         <Form className='form-ui' onSubmit={onSubmit} noValidate className={loading ? "loading" : ""} >
             <h1>Login</h1>
             <Form.Input label='username' placeholder='Username..' name='username' value={values.username} error={errors.username ? true : false} onChange={onChange}/>
