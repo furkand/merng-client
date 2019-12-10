@@ -38,7 +38,7 @@ function Home() {
                     <Grid.Column key={post.id} style={{ marginBottom: 20 }}>
                       <PostCard post={post} />
                     </Grid.Column>
-                    <div/>
+                    </div>
                   ))}
               </Transition.Group>
             
