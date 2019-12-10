@@ -3,3 +3,8 @@
     margin: auto;
     margin-top: 10%;
 }
+@media only screen and (max-width: 600px) {
+    .post-container{
+        width:100%;
+    }
+  }
