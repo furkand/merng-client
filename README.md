@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/app.png" width="200" align="left" >
+<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/app.png" width="200"  >
 <img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/appthree.png" width="200" align="left" > 
 <img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/app-1.png" width="200" align="left" >
 <img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/app-2.png" width="200" >
