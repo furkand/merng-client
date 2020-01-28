@@ -1,6 +1,7 @@
-<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/app.png" width="250" align="left" >
-<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/appthree.png" > 
-<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/app-2.png" width="250" align="left" >
+<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/app.png" width="200" align="left" >
+<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/appthree.png" width="200" align="left" > 
+<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/app-1.png" width="200" align="left" >
+<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/app-2.png" width="200" >
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
