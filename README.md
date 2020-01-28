@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/frame.png"  width="800">
+<img src="https://raw.githubusercontent.com/fdmrtrk/merng-client/master/public/frame.png"  >
 
 
 
