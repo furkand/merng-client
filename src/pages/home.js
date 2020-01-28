@@ -21,10 +21,7 @@ function Home() {
       console.log(posts);
       return (
        
-        <Grid columns={3}>
-          <Grid.Row className="page-title">
-            <h1>Recent Posts</h1>
-          </Grid.Row>
+        <Grid columns={3} className="container">
           <Grid.Row>
             {user && (
               <Grid.Column>

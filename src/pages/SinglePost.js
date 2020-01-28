@@ -50,14 +50,14 @@ function SinglePost (props) {
           console.log(body)
           postMarkup = (
             <Grid>
-                <div style={{margin:'auto', marginTop: 20}}>
+                <div className="user-container" style={{margin:'auto'}}>
                 <Grid.Row >
                     <Grid.Column width={2}>
                          <Image 
                              src='https://react.semantic-ui.com/images/avatar/large/molly.png' 
                              size='small'
                              float='right'
-                             style={{ borderRadius: 81, margin: 'auto', marginBottom:30}}
+                             style={{ borderRadius: 81, margin: 'auto'}}
                          />
                     </Grid.Column>
                     <Grid.Column width={10}>
@@ -86,8 +86,8 @@ function SinglePost (props) {
                                     <p> Post a comment</p>
                                     <Form>
                                         <div className='ui action input fluid'>
-                                            <input type='text' placeholder='Comment..' value={comment} name='comment' onChange={ event=> setComment(event.target.value)} />
-                                            <button type='submit'  disabled= {comment.trim() === ''} onClick={submitComment} >
+                                            <input type='text' className="comment-ui"placeholder='Comment..' value={comment} name='comment' onChange={ event=> setComment(event.target.value)} />
+                                            <button type='submit' className="comment-submit" disabled= {comment.trim() === ''} onClick={submitComment} >
                                                 Submit
                                             </button>
                                         </div>
